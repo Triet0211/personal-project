@@ -1,0 +1,38 @@
+.item{
+    text-align: center;
+    height:500px;
+}
+.item img{
+    box-sizing: border-box;
+    border: black 1px;
+    height:400px;
+    object-fit: cover;
+    clear: both;
+}
+
+
+
+.book img{
+    border: black 1px;
+
+    object-fit: cover;
+    clear: both;
+}
+
+.book tittle,p{
+    display: block;
+    font-size:130%;
+    text-align: justify;
+}
+
+.info tittle{
+    font-size:350%;
+    color:white;
+    text-shadow: 2px 0 0 rgb(107, 109, 3), -2px 0 0 rgb(107, 109, 3), 0 2px 0 rgb(107, 109, 3), 0 -2px 0 rgb(107, 109, 3), 1px 1px rgb(107, 109, 3), -1px -1px 0 rgb(107, 109, 3), 1px -1px 0 rgb(107, 109, 3), -1px 1px 0 rgb(107, 109, 3);
+}
+
+p span{
+    font-size: 140%;
+    text-decoration: underline;
+}
+
