@@ -30,4 +30,4 @@
 
 <h2>Connect with me!</h2>
  
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](linkedin.com/in/triet-nguyen-0211) [<img src = "https://img.shields.io/badge/zalo-%2320A1F1.svg?&style=for-the-badge&logo=zalo&logoColor=white">](https://zalo.me/0963212750)  
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/triet-nguyen-0211) [<img src = "https://img.shields.io/badge/zalo-%2320A1F1.svg?&style=for-the-badge&logo=zalo&logoColor=white">](https://zalo.me/0963212750)  
