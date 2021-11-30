@@ -18,7 +18,7 @@
 </div>
 </details> 
 
-- I'm currently a student at FPT University (semester 5/9) studying software engineering, particularly in cross-platform application development.
+- I'm currently a student at FPT University (semester 5/9) studying software engineering, majoring in Cross-platform application development.
 - :high_brightness: <b>Language skills</b> <br>
   :beginner: English: can read, write technical documents and communicate effectively. <br>
   :beginner: Japanese: equals to N3 certificate. Aiming to get N2 qualification in July 2022. <br>
@@ -27,10 +27,6 @@
   :beginner: Languages: Java, C#, SQL, HTML, CSS, Javascript <br>
   :beginner: Databases: SQL Server <br>
   :beginner: Frameworks: Entity Framework Core, ASP.NET Core MVC, JUnit <br>
-
-<h2>Connect with me!</h2>
- 
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/triet-nguyen-0211) [<img src = "https://img.shields.io/badge/zalo-%2320A1F1.svg?&style=for-the-badge&logo=zalo&logoColor=white">](https://zalo.me/0963212750)  
 
 <h2>My personal project :star:</h2>
 <strong>Included in each folder named after the semester mentioned</strong>
@@ -56,3 +52,8 @@ Using Visual Studio 2019, ASP.NET Core MVC, Entity Framework Core, SQL Server.<b
   - Using Visual Studio 2019, ASP.NET Core MVC, Entity Framework Core, SQL Server. <br>
   - Link to GitHub: <a href="https://github.com/Triet0211/BookManagementWeb.git">Bookstore Management</a>
 </p>
+
+
+<h2>Connect with me!</h2>
+ 
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://linkedin.com/in/triet-nguyen-0211) [<img src = "https://img.shields.io/badge/zalo-%2320A1F1.svg?&style=for-the-badge&logo=zalo&logoColor=white">](https://zalo.me/0963212750)  
