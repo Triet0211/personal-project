@@ -5,7 +5,7 @@
  */
 package testQueue;
 
-import DLL.DoublyLinkedList;
+import PriorityQueue.DoublyLinkedList;
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Integer.MIN_VALUE;
 import java.util.Scanner;
