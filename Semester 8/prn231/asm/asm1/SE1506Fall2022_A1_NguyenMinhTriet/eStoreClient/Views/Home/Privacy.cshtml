@@ -1,0 +1,9 @@
+﻿@using Utils
+@{
+    ViewData["Title"] = "Privacy Policy";
+    string role = CustomAuthorization.Role();
+    Layout = "~/Views/Shared/_Layout" + role + ".cshtml";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
