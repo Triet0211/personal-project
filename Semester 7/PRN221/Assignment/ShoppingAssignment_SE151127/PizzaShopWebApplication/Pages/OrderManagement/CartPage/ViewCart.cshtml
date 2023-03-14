@@ -1,0 +1,85 @@
+﻿@page
+@model PizzaShopWebApplication.Pages.OrderManagement.CartPage.ViewCartModel
+@{
+}
+<h1>Cart</h1>
+
+<h3>Order of @Model.Customer.Email</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ListProduct[0].ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListProduct[0].ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListProduct[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListProduct[0].UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListProduct[0].TotalPrice)
+            </th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in @Model.ListProduct) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalPrice)
+            </td>
+            <td>
+                <form method="post" asp-page-handler="UpdateQuantity">
+                    <input type="number" min="1" step="1" value="@Html.DisplayFor(modelItem => item.Quantity)" name="quantity" />
+
+                    <input type="hidden" value="@Html.DisplayFor(modelItem => item.ProductId)" name="id" />
+
+                    <input type="submit" value="Update Quantity" class="btn btn-primary" />
+                </form>
+
+            </td>
+            <td>
+                <form method="post" asp-page-handler="RemoveFromCart">
+                    
+                    <input type="hidden" value="@Html.DisplayFor(modelItem => item.ProductId)" name="id" />
+
+                    <input type="submit" value="Remove" class="btn btn-primary" />
+                </form>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@if(@Model.Cart.ListProduct.Count == 0)
+{
+    <h4><a class="nav-link logout" asp-page="/OrderManagement/CartPage/AddToCart">Add to cart</a></h4>
+} else
+{
+    <h4><a class="nav-link logout" asp-page="/OrderManagement/CartPage/ViewCart" asp-page-handler="ConfirmOrder">Confirm Order</a></h4>
+}
+@if (TempData["Message"] != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@TempData["Message"]");
+            };
+        </script>
+    }

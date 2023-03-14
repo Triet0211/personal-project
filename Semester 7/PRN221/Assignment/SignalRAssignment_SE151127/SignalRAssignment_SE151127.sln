@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRAssignment_SE151127", "SignalRAssignment_SE151127\SignalRAssignment_SE151127.csproj", "{3F8DFF32-0875-4719-A42F-380FBB26ED57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F8DFF32-0875-4719-A42F-380FBB26ED57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8DFF32-0875-4719-A42F-380FBB26ED57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8DFF32-0875-4719-A42F-380FBB26ED57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8DFF32-0875-4719-A42F-380FBB26ED57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD4B4F36-72A1-4B1C-BF03-416084BD706E}
+	EndGlobalSection
+EndGlobal

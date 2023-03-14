@@ -1,0 +1,109 @@
+﻿@page
+@model PizzaShopWebApplication.Pages.OrderManagement.CartPage.AddToCartModel
+@{
+    ViewData["Title"] = "Add to cart";
+}
+
+<h1>Index</h1>
+<form method="post">
+    <select id="ddlCustomers" name="CustomerId" asp-items="@Model.Customer">
+        <option value="0">--Select Customer--</option>
+    </select>
+    <input type="hidden" name="CustomerEmail"/>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit" asp-page-handler="SetCustomer"/>
+    @if (TempData["Message"] != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@TempData["Message"]");
+            };
+        </script>
+    }
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js">
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#ddlCustomers").select2();
+        });
+        $("body").on("change", "#ddlCustomers", function () {
+            $("input[name=CustomerEmail]").val($(this).find("option:selected").text());
+        });
+    </script>
+ </form>
+@{
+    if(@Model.Cart == null || @Model.Cart.CustomerId == null)
+    {
+        <p>Add a customer to view cart!</p>
+    } else
+    {
+        <a class="nav-link text-dark" asp-area="" asp-page="/OrderManagement/CartPage/ViewCart">View Cart</a>
+    }
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].QuantityPerUnit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].UnitPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].ProductStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product[0].Supplier)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in @Model.Product) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityPerUnit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UnitPrice)
+            </td>
+            <td>
+                <img src = "/Images/@item.ProductImage" height="200" width="200"/>
+                @Html.DisplayFor(modelItem => item.ProductImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.CompanyName)
+            </td>
+            <td>
+                <form method="post">
+                    <input type="number" min="1" step="1" max="@Html.DisplayFor(modelItem => item.QuantityPerUnit)" name="quantity" value="1"/>
+                    <input type="hidden" value="@Html.DisplayFor(modelItem => item.ProductId)" name="id" />
+                    <input type="submit" value="Add to cart" class="btn btn-primary" />
+                </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

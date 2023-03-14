@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowCart.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowMemberManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowMembers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowOrderDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowOrders.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowProductInformation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowProductManagement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowProducts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowCart.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowMemberManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowMembers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowOrderDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowOrders.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowProductInformation.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowProductManagement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowProducts.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

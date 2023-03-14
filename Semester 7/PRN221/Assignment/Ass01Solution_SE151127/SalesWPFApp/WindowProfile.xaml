@@ -1,0 +1,35 @@
+﻿<Window x:Class="SalesWPFApp.WindowProfile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="WindowProfile" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="MemberId" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="140"/>
+                <TextBox Name="txtMemberId" Text="" TextWrapping="Wrap" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" PreviewTextInput="NumberValidationTextBox"/>
+                <Label Content="Email" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="130"/>
+                <TextBox Name="txtEmail" Text="" TextWrapping="Wrap" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20"/>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="Company Name" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="140"/>
+                <TextBox Name="txtCompanyName" Text="" TextWrapping="Wrap" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20"/>
+                <Label Content="Password" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="130"/>
+                <PasswordBox Name="txtPassword" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" PasswordChar="*"/>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Label Content="City" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="140"/>
+                <TextBox Name="txtCity" Text="" TextWrapping="Wrap" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20"/>
+                <Label Content="Country" FontSize="18" VerticalContentAlignment="Center" Margin="20,20" Width="130"/>
+                <TextBox Name="txtCountry" Text="" TextWrapping="Wrap" Width="180" FontSize="18" VerticalContentAlignment="Center" Margin="20,20"/>
+            </StackPanel>
+            <StackPanel Height="100" Orientation="Horizontal">
+                <Button Name="btnSave" Content="Save" Width="180" Margin="100,20" FontSize="24" Click="btnSave_Click"/>
+                <Button Name="btnCancel" Content="Cancel" Width="180" Margin="100,20" FontSize="24" Click="btnCancel_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

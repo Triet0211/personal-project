@@ -1,0 +1,22 @@
+﻿<Window x:Class="SalesWPFApp.WindowLogin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SalesWPFApp"
+        mc:Ignorable="d"
+        Title="FStore" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label Content="Login" Height="120" FontSize="72" HorizontalAlignment="Center"/>
+            <Label Content="Email" Height="40" FontSize="24" Margin="20,0"/>
+            <TextBox Name="txtEmail" Text="" Height="45" Margin="20,0" FontSize="24" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Content="Password" Height="40" FontSize="24" Margin="20,0"/>
+            <PasswordBox Name="txtPassword" Height="45" Margin="20,0" FontSize="24" PasswordChar="*" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+            <Button Name="btnLogin" Content="Login" Width="231" Height="43" FontSize="24" Margin="20" Click="btnLogin_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

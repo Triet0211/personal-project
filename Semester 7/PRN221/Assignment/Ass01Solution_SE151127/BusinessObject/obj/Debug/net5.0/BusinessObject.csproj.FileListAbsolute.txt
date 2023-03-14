@@ -1,0 +1,15 @@
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\Users\triet\Desktop\Semester7\c# PRN\Assignments-20220510\Assignment 1\Ass01Solution_StudentCode\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache

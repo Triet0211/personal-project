@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Login</h1>
+<h4>@TempData["Message"]</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="POST">
+            <div class="form-group">
+                <label class="control-label">Email</label>
+                <input name="email" class="form-control" type="text" required/>
+                
+            </div>
+            <div class="form-group">
+                <label  class="control-label">Password</label>
+                <input TYPE="password" name="password" class="form-control" required />
+                
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
